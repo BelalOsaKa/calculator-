@@ -1,0 +1,41 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    background: brown;
+    padding: 25px;
+    border-radius: 15px;
+    width: 320px;
+}
+#display{
+    width: 75%;
+    height: 50px;
+    font-size: 28px;
+    text-align: left;
+    padding: 10px;
+    border: none;
+    background: gray;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+button{
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+    border: none;
+    background: #333;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    background: #555;
+}
